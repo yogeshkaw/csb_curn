@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/churnalyze/py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-generation/py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/chap9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/listings/py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dataset-export/py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/metric-framework/py" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
