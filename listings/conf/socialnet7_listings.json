@@ -554,26 +554,7 @@
 			"%new_metric_name": "Track_Time_Added_per_month",
 			"%new_metric_id": 47
 		},
-		"listing_3_3_49_count_metric_insert": {
-			"mode": "run",
-			"%event2measure": "Quantities_Report_Scheduled",
-			"%new_metric_id": 48
-		},
-		"listing_3_4_49_metric_name_insert": {
-			"mode": "run",
-			"%new_metric_name": "Quantities_Report_Scheduled_per_month",
-			"%new_metric_id": 48
-		},
-		"listing_3_3_50_count_metric_insert": {
-			"mode": "run",
-			"%event2measure": "Person_Worklog_Added",
-			"%new_metric_id": 49
-		},
-		"listing_3_4_50_metric_name_insert": {
-			"mode": "run",
-			"%new_metric_name": "Person_Worklog_Added_per_month",
-			"%new_metric_id": 49
-		},
+
 
 
 		"listing_3_6_1_metric_stats_over_time": {
@@ -1046,26 +1027,7 @@
 			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_metric_stats_over_time",
 			"metric_name" : "Track_Time_Added_per_month"
 		},
-		"listing_3_6_49_metric_stats_over_time": {
-			"mode": "save",
-			"%metric2measure": "Quantities_Report_Scheduled_per_month",
-			"save_ext" : "Quantities_Report_Scheduled_per_month"
-		},
-		"listing_3_7_49_metric_qa_plot": {
-			"type": "py",
-			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_metric_stats_over_time",
-			"metric_name" : "Quantities_Report_Scheduled_per_month"
-		},
-		"listing_3_6_50_metric_stats_over_time": {
-			"mode": "save",
-			"%metric2measure": "Person_Worklog_Added_per_month",
-			"save_ext" : "Person_Worklog_Added_per_month"
-		},
-		"listing_3_7_50_metric_qa_plot": {
-			"type": "py",
-			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_metric_stats_over_time",
-			"metric_name" : "Person_Worklog_Added_per_month"
-		},
+
 
 
 
@@ -1634,30 +1596,7 @@
 			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_events_per_day",
 			"event_name" : "Track_Time_Added"
 		},
-		"listing_3_9_49_events_per_day": {
-			"mode": "save",
-			"%from_yyyy-mm-dd": "2020-02-01",
-			"%to_yyyy-mm-dd": "2020-06-01",
-			"%event2measure": "Quantities_Report_Scheduled",
-			"save_ext" : "Quantities_Report_Scheduled"
-		},
-		"listing_3_10_49_event_count_plot": {
-			"type": "py",
-			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_events_per_day",
-			"event_name" : "Quantities_Report_Scheduled"
-		},
-		"listing_3_9_50_events_per_day": {
-			"mode": "save",
-			"%from_yyyy-mm-dd": "2020-02-01",
-			"%to_yyyy-mm-dd": "2020-06-01",
-			"%event2measure": "Person_Worklog_Added",
-			"save_ext" : "Person_Worklog_Added"
-		},
-		"listing_3_10_50_event_count_plot": {
-			"type": "py",
-			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_events_per_day",
-			"event_name" : "Person_Worklog_Added"
-		}
+
 
 	},
 	"chap4": {

@@ -52,8 +52,6 @@ sum(case when metric_name_id=44 then metric_value else 0 end) as Production_Insi
 sum(case when metric_name_id=45 then metric_value else 0 end) as Production_Budget_Uploaded_per_month,
 sum(case when metric_name_id=46 then metric_value else 0 end) as Budgeted_Hours_Added_per_month,
 sum(case when metric_name_id=47 then metric_value else 0 end) as Track_Time_Added_per_month,
-sum(case when metric_name_id=48 then metric_value else 0 end) as Quantities_Report_Scheduled_per_month,
-sum(case when metric_name_id=49 then metric_value else 0 end) as Person_Worklog_Added_per_month,
 sum(case when metric_name_id=50 then metric_value else 0 end) as account_tenure
 from metric m inner join observation_params
 on metric_time between obs_start and obs_end    
