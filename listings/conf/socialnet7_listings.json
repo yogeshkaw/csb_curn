@@ -73,7 +73,7 @@
 		},
 		"listing_3_13_account_tenure_insert": {
 			"mode": "run",
-			"%new_metric_id": 8
+			"%new_metric_id": 50
 		},
 		"listing_3_14_mrr": {
 		},
@@ -1699,7 +1699,7 @@
 			"metric_to_plot": "standard_worklog_added_per_month"
 		},
 		"listing_5_1_1_cohort_plot": {
-			"metric_to_plot": "Standard_Worklog_Added_per_month"
+			"metric_to_plot": "standard_worklog_added_per_month"
 		},
 		"listing_5_1_2_cohort_plot": {
 			"data_set_path": "../../../fight-churn-output/socialnet7/socialnet7_dataset_scores.csv",
@@ -1807,8 +1807,8 @@
 			"type": "py"
 		},
 		"listing_6_1_metric_pair_plot": {
-			"metric1": "post_per_month",
-			"metric2": "like_per_month"
+			"metric1": "standard_worklog_added_per_month",
+			"metric2": "project_summary_scheduled_per_month"
 		},
 		"listing_6_2_dataset_correlation_matrix": {
 		},
