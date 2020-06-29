@@ -1595,7 +1595,7 @@
 			"type": "py",
 			"qa_data_path" : "../../../fight-churn-output/socialnet7/socialnet7_events_per_day",
 			"event_name" : "Track_Time_Added"
-		},
+		}
 
 
 	},
