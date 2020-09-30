@@ -12,3 +12,4 @@ inner join observation o on m.account_id = o.account_id
     and m.metric_time <= o.observation_date::timestamp
 group by m.account_id, metric_time, observation_date, is_churn
 order by account_id, observation_date
+-- export data
