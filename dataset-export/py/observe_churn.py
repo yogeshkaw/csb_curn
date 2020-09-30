@@ -89,7 +89,7 @@ if __name__ == "__main__":
     print('EXPORT SQL:\n----------\n' + sql + '\n----------\n')
     sql = sql.replace('\n', ' ')
 
-    # Execute the query and get the result into a data frame
+    # Execute this query and get the result into a DataFrame
     res = db.all(sql)
     df = pd.DataFrame(res)
 
